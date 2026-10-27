@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://idraulico-ostuni.it/sitemap.xml

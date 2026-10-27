@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-473124610">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-473124610');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    
+    <!-- SEO Meta Tags -->
+    <title>Idraulico a Ostuni | Prenota intervento rapido | Ungaro Impianti</title>
+    <meta name="description" content="Prenota il tuo intervento idraulico a Ostuni. Sistema di prenotazione online rapido e sicuro. Preventivo immediato e conferma in 24h. Pronto intervento 24/7.">
+    <meta name="keywords" content="prenotazione idraulico ostuni, preventivo idraulico online, idraulico urgente ostuni">
+    <meta name="author" content="Ungaro Impianti Ostuni">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://idraulico-ostuni.it/prenotazioni.html">
+    <meta property="og:title" content="Prenota Intervento Idraulico a Ostuni | Ungaro Impianti">
+    <meta property="og:description" content="Prenota il tuo intervento idraulico a Ostuni. Sistema di prenotazione online rapido e sicuro. Preventivo immediato e conferma in 24h.">
+    <meta property="og:image" content="https://idraulico-ostuni.it/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Prenota Intervento Idraulico Ostuni - Ungaro Impianti">
+    <meta property="og:locale" content="it_IT">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Prenota Intervento Idraulico a Ostuni | Ungaro Impianti">
+    <meta name="twitter:description" content="Prenota il tuo intervento idraulico a Ostuni. Sistema di prenotazione online rapido e sicuro. Preventivo immediato e conferma in 24h.">
+    <meta name="twitter:image" content="https://idraulico-ostuni.it/og-image.jpg">
+    
+    <!-- Local Business Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Plumber",
+      "name": "Ungaro Impianti Idrici & Termici",
+      "image": "https://idraulico-ostuni.it/logo.png",
+      "description": "Servizi idraulici professionali a Ostuni e provincia",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Rodolfo Tanzarella, 4",
+        "addressLocality": "Ostuni",
+        "addressRegion": "BR",
+        "postalCode": "72017",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.7321",
+        "longitude": "17.5769"
+      },
+      "url": "https://idraulico-ostuni.it",
+      "telephone": "+393792560025",
+      "priceRange": "€€",
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      }],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "bestRating": "5",
+        "reviewCount": "10"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Ostuni"},
+        {"@type": "City", "name": "Brindisi"},
+        {"@type": "City", "name": "Cisternino"},
+        {"@type": "City", "name": "Fasano"},
+        {"@type": "City", "name": "Carovigno"},
+        {"@type": "City", "name": "San Vito dei Normanni"},
+        {"@type": "City", "name": "Ceglie Messapica"},
+        {"@type": "City", "name": "Martina Franca"},
+        {"@type": "City", "name": "San Michele Salentino"},
+        {"@type": "City", "name": "Francavilla Fontana"}
+      ],
+      "serviceType": ["Idraulico", "Pronto Intervento", "Riparazione Perdite", "Rifacimento Bagni", "Caldaie"]
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #2a1768 0%, #3a2278 100%);
+            min-height: 100vh;
+        }
+        
+        /* Header / Navigation */
+        .header {
+            background: white;
+            padding: 1rem 0;
+            width: 100%;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 80px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        .logo img {
+            height: 90px;
+            width: auto;
+            display: block;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav-menu li {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        .nav-menu a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+            font-size: 1rem;
+        }
+
+        .nav-menu a:hover {
+            color: #e63946;
+        }
+
+        .cta-button {
+            background: #25d366;
+            color: white !important;
+            padding: 0.7rem 1.8rem;
+            border-radius: 50px;
+            font-weight: 700;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            background: #1fb855;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .page-title {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        .page-title h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .page-title p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+        
+        .booking-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .form-section {
+            margin-bottom: 30px;
+        }
+        
+        .form-section h2 {
+            color: #2a1768;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 3px solid #2a1768;
+            padding-bottom: 10px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+        }
+        
+        .required {
+            color: #e74c3c;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s;
+            font-family: inherit;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #2a1768;
+            box-shadow: 0 0 0 3px rgba(42, 23, 104, 0.1);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .service-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .service-option {
+            position: relative;
+        }
+        
+        .service-option input[type="checkbox"] {
+            position: absolute;
+            opacity: 0;
+        }
+        
+        .service-option label {
+            display: block;
+            padding: 15px;
+            background: #f8f9fa;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        
+        .service-option input[type="checkbox"]:checked + label {
+            background: #2a1768;
+            border-color: #2a1768;
+            color: white;
+            font-weight: 600;
+        }
+        
+        .urgency-selector {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .urgency-option {
+            position: relative;
+            flex: 1;
+            min-width: 150px;
+        }
+        
+        .urgency-option input[type="radio"] {
+            position: absolute;
+            opacity: 0;
+        }
+        
+        .urgency-option label {
+            display: block;
+            padding: 15px;
+            background: #f8f9fa;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        .urgency-option input[type="radio"]:checked + label {
+            background: #db291d;
+            border-color: #db291d;
+            color: white;
+        }
+        
+        .urgency-option.medium input[type="radio"]:checked + label {
+            background: #f39c12;
+            border-color: #f39c12;
+        }
+        
+        .urgency-option.low input[type="radio"]:checked + label {
+            background: #27ae60;
+            border-color: #27ae60;
+        }
+        
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .info-box strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #1565c0;
+        }
+        
+        .submit-btn {
+            background: linear-gradient(135deg, #db291d, #b91f14);
+            color: white;
+            padding: 18px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+            text-transform: uppercase;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(219, 41, 29, 0.4);
+        }
+        
+        .success-message {
+            display: none;
+            background: #d4edda;
+            border: 2px solid #c3e6cb;
+            color: #155724;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .success-message.show {
+            display: block;
+        }
+        
+        /* Footer */
+        .footer {
+            background: white;
+            color: #333;
+            padding: 2rem 20px;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .footer p {
+            margin: 0.5rem 0;
+            color: #333;
+        }
+
+        .footer a {
+            color: #e63946;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer a:hover {
+            color: #d62828;
+        }
+        
+        /* Banner Cookies */
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #2a1768;
+            color: white;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+            transform: translateY(100%);
+            transition: transform 0.5s ease;
+            z-index: 1000;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+        }
+
+        .cookie-banner.show {
+            transform: translateY(0);
+        }
+
+        .cookie-content {
+            flex: 1;
+        }
+
+        .cookie-content p {
+            margin: 0;
+            line-height: 1.6;
+            color: white;
+        }
+
+        .cookie-content p:first-child {
+            margin-bottom: 0.5rem;
+            color: white;
+        }
+
+        .cookie-accept-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+
+        .cookie-accept-btn:hover {
+            background: #229954;
+            transform: scale(1.05);
+        }
+        
+        @media (max-width: 768px) {
+            .nav-container {
+                justify-content: center;
+            }
+
+            .nav-menu {
+                display: none;
+            }
+
+            .logo {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+
+            .logo img {
+                height: 80px;
+            }
+            
+            .booking-card {
+                padding: 25px;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .page-title h1 {
+                font-size: 2rem;
+            }
+            
+            .urgency-selector {
+                flex-direction: column;
+            }
+            
+            .cookie-banner {
+                flex-direction: column;
+                padding: 1.5rem 1rem;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .cookie-content p {
+                font-size: 0.9rem;
+                text-align: center;
+            }
+
+            .cookie-accept-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="https://idraulico-ostuni.it/" class="logo">
+                <img src="logo-black.png" alt="Ungaro Impianti Idrici e Termici">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="https://idraulico-ostuni.it/#servizi">Servizi</a></li>
+                <li><a href="https://idraulico-ostuni.it/#zone">Zone</a></li>
+                <li><a href="https://idraulico-ostuni.it/#contatti">Contatti</a></li>
+                <li><a href="https://wa.me/393713684009?text=Ciao,%20ho%20bisogno%20di%20un%20intervento%20idraulico" target="_blank" class="cta-button">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    WhatsApp
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="page-title">
+            <h1>🔧 Prenota il Tuo Intervento</h1>
+            <p>Compila il form e ti ricontatteremo entro 24h con il preventivo</p>
+        </div>
+        
+        <div class="booking-card">
+            <form id="bookingForm" action="https://formsubmit.co/info@idraulico-ostuni.it" method="POST">
+                <!-- FormSubmit Configuration -->
+                <input type="hidden" name="_subject" value="🔧 Nuova Prenotazione - Ungaro Impianti">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="_honey" style="display:none">
+                
+                <!-- Dati Personali -->
+                <div class="form-section">
+                    <h2>👤 I Tuoi Dati</h2>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Nome e Cognome <span class="required">*</span></label>
+                            <input type="text" name="Nome_Cognome" id="nome" required placeholder="Es: Mario Rossi">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Telefono <span class="required">*</span></label>
+                            <input type="tel" name="Telefono" id="telefono" required placeholder="Es: 333 123 4567">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="Email" id="email" placeholder="Es: mario.rossi@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Indirizzo Intervento <span class="required">*</span></label>
+                        <input type="text" name="Indirizzo" id="indirizzo" required placeholder="Via, Numero civico, Città">
+                    </div>
+                </div>
+                
+                <!-- Tipo di Servizio -->
+                <div class="form-section">
+                    <h2>🔧 Tipo di Servizio</h2>
+                    
+                    <div class="service-options">
+                        <div class="service-option">
+                            <input type="checkbox" id="pronto" name="Servizio[]" value="Pronto Intervento">
+                            <label for="pronto">🚨 Pronto Intervento</label>
+                        </div>
+                        
+                        <div class="service-option">
+                            <input type="checkbox" id="perdita" name="Servizio[]" value="Riparazione Perdita">
+                            <label for="perdita">💧 Riparazione Perdita</label>
+                        </div>
+                        
+                        <div class="service-option">
+                            <input type="checkbox" id="bagno" name="Servizio[]" value="Rifacimento Bagno">
+                            <label for="bagno">🚿 Rifacimento Bagno</label>
+                        </div>
+                        
+                        <div class="service-option">
+                            <input type="checkbox" id="caldaia" name="Servizio[]" value="Caldaia">
+                            <label for="caldaia">🔥 Caldaia</label>
+                        </div>
+                        
+                        <div class="service-option">
+                            <input type="checkbox" id="scarico" name="Servizio[]" value="Scarichi">
+                            <label for="scarico">🚽 Scarichi</label>
+                        </div>
+                        
+                        <div class="service-option">
+                            <input type="checkbox" id="altro" name="Servizio[]" value="Altro">
+                            <label for="altro">🔧 Altro</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Urgenza -->
+                <div class="form-section">
+                    <h2>⏰ Urgenza</h2>
+                    
+                    <div class="urgency-selector">
+                        <div class="urgency-option">
+                            <input type="radio" id="urgente" name="Urgenza" value="Urgente - Entro 24h" required>
+                            <label for="urgente">🚨 URGENTE<br><small>Entro 24h</small></label>
+                        </div>
+                        
+                        <div class="urgency-option medium">
+                            <input type="radio" id="breve" name="Urgenza" value="Breve termine - 2-5 giorni">
+                            <label for="breve">⚡ BREVE<br><small>2-5 giorni</small></label>
+                        </div>
+                        
+                        <div class="urgency-option low">
+                            <input type="radio" id="programmato" name="Urgenza" value="Programmato - Oltre 1 settimana">
+                            <label for="programmato">📅 PROGRAMMATO<br><small>Oltre 1 sett.</small></label>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Descrizione -->
+                <div class="form-section">
+                    <h2>📝 Descrizione del Problema</h2>
+                    
+                    <div class="form-group">
+                        <label>Descrivi il problema o il lavoro richiesto <span class="required">*</span></label>
+                        <textarea name="Descrizione" id="descrizione" required placeholder="Es: Perdita dal rubinetto della cucina, sembra provenire dalla guarnizione..."></textarea>
+                    </div>
+                </div>
+                
+                <!-- Info Box -->
+                <div class="info-box">
+                    <strong>ℹ️ Come funziona:</strong>
+                    1. Invii la prenotazione<br>
+                    2. Ti contattiamo entro 24h (o prima se urgente)<br>
+                    3. Accordiamo data e orario intervento<br>
+                    4. Preventivo gratuito prima di iniziare<br>
+                    5. Intervento e garanzia 12 mesi
+                </div>
+                
+                <!-- Privacy -->
+                <div class="form-group">
+                    <label style="display: flex; align-items: start; gap: 10px;">
+                        <input type="checkbox" required style="width: auto; margin-top: 3px;">
+                        <span style="font-weight: normal;">
+                            Accetto il trattamento dei dati personali secondo la <a href="https://idraulico-ostuni.it/privacy-policy.html" style="color: #e63946; text-decoration: none;">Privacy Policy</a> <span class="required">*</span>
+                        </span>
+                    </label>
+                </div>
+                
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn">
+                    📤 Invia Prenotazione
+                </button>
+                
+                <!-- Success Message -->
+                <div class="success-message" id="successMessage">
+                    <h3>✅ Prenotazione Ricevuta!</h3>
+                    <p>Grazie per averci contattato. Ti ricontatteremo entro 24 ore per confermare l'appuntamento.</p>
+                    <p><strong>Per urgenze immediate chiama: +39 379 256 0025</strong></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2012 - 2026 Ungaro Impianti Idrici & Termici - Idraulico Ostuni (BR)</p>
+        <p>Tutti i diritti riservati | <a href="https://idraulico-ostuni.it/privacy-policy.html">Privacy Policy</a></p>
+    </footer>
+    
+    <!-- Banner Cookies -->
+    <div id="cookieBanner" class="cookie-banner">
+        <div class="cookie-content">
+            <p><strong>🍪 Utilizzo dei Cookie</strong></p>
+            <p>Questo sito utilizza cookie per migliorare l'esperienza utente. Continuando la navigazione accetti l'utilizzo dei cookie.</p>
+        </div>
+        <button id="acceptCookies" class="cookie-accept-btn">Accetta</button>
+    </div>
+    
+    <script>
+        // Banner Cookies
+        const cookieBanner = document.getElementById('cookieBanner');
+        const acceptCookiesBtn = document.getElementById('acceptCookies');
+        
+        if (!localStorage.getItem('cookiesAccepted')) {
+            setTimeout(function() {
+                cookieBanner.classList.add('show');
+            }, 1000);
+        }
+        
+        acceptCookiesBtn.addEventListener('click', function() {
+            localStorage.setItem('cookiesAccepted', 'true');
+            cookieBanner.classList.remove('show');
+        });
+        
+        // Form WhatsApp + Email
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const nome = document.getElementById('nome').value;
+            const telefono = document.getElementById('telefono').value;
+            const email = document.getElementById('email').value || 'Non fornita';
+            const indirizzo = document.getElementById('indirizzo').value;
+            const descrizione = document.getElementById('descrizione').value;
+            
+            const serviziCheckbox = document.querySelectorAll('input[name="Servizio[]"]:checked');
+            const servizi = Array.from(serviziCheckbox).map(cb => cb.value).join(', ') || 'Non specificato';
+            
+            const urgenzaRadio = document.querySelector('input[name="Urgenza"]:checked');
+            const urgenza = urgenzaRadio ? urgenzaRadio.value : 'Non specificata';
+            
+            const messaggio = `🔧 *RICHIESTA DI INTERVENTO*
+
+👤 *Cliente:* ${nome}
+📞 *Telefono:* ${telefono}
+📧 *Email:* ${email}
+📍 *Indirizzo:* ${indirizzo}
+
+🔧 *Servizi:* ${servizi}
+⏰ *Urgenza:* ${urgenza}
+
+📝 *Descrizione:*
+${descrizione}
+
+_Prenotazione inviata da idraulico-ostuni.it_`;
+            
+            const numeroWhatsApp = '393713684009';
+            const whatsappURL = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(messaggio)}`;
+            
+            window.open(whatsappURL, '_blank');
+            
+            setTimeout(() => {
+                this.removeEventListener('submit', arguments.callee);
+                this.submit();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

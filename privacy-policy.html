@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Idraulico Ostuni | Ungaro Impianti</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Privacy Policy di Ungaro Impianti Idrici & Termici - Idraulico Ostuni. Informativa sul trattamento dei dati personali conforme al GDPR.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://idraulico-ostuni.it/privacy-policy">
+    <meta property="og:title" content="Privacy Policy - Ungaro Impianti Ostuni">
+    <meta property="og:description" content="Informativa sul trattamento dei dati personali - Ungaro Impianti Idrici & Termici">
+    <meta property="og:image" content="https://idraulico-ostuni.it/favicon.png">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+        }
+
+        /* Header / Navigation */
+        .header {
+            background: white;
+            padding: 1rem 0;
+            width: 100%;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: relative;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 80px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        .logo img {
+            height: 90px;
+            width: auto;
+            display: block;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            align-items: center;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav-menu li {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        .nav-menu a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+            font-size: 1rem;
+        }
+
+        .nav-menu a:hover {
+            color: #e63946;
+        }
+
+        .cta-button {
+            background: #e63946;
+            color: white !important;
+            padding: 0.7rem 1.8rem;
+            border-radius: 50px;
+            font-weight: 700;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-size: 0.9rem;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            background: #d62828;
+            box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(42, 23, 104, 0.7), rgba(58, 34, 120, 0.7)), 
+                        url('hero-background.png') no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            padding: 100px 20px 80px;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.1);
+            z-index: 0;
+        }
+
+        .hero > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            font-weight: 700;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            opacity: 0.95;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+            color: white;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 1rem;
+        }
+
+        .hero h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 3px;
+            background: #e63946;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            opacity: 0.95;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+            color: white;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        /* Content Container */
+        .content-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .info-box {
+            background: #f8f9fa;
+            border-left: 5px solid #1e3a8a;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            border-radius: 8px;
+        }
+
+        .info-box strong {
+            color: #1e3a8a;
+        }
+
+        .info-box p {
+            margin: 0.5rem 0;
+        }
+
+        .info-box a {
+            color: #e63946;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .content-section {
+            background: white;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #1e3a8a;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 3px solid #e63946;
+        }
+
+        h3 {
+            color: #1e3a8a;
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            color: #555;
+            text-align: justify;
+        }
+
+        ul {
+            margin-bottom: 1.5rem;
+            margin-left: 2rem;
+        }
+
+        li {
+            margin-bottom: 0.8rem;
+            color: #555;
+        }
+
+        li strong {
+            color: #1e3a8a;
+        }
+
+        .highlight-box {
+            background: #eff6ff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border-left: 4px solid #10b981;
+        }
+
+        .back-link {
+            display: inline-block;
+            background: #e63946;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 2rem;
+            font-weight: 700;
+            transition: all 0.3s;
+        }
+
+        .back-link:hover {
+            background: #d62828;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
+        }
+
+        .last-update {
+            font-style: italic;
+            color: #888;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1e1548;
+            color: white;
+            padding: 2rem 20px;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .footer p {
+            margin: 0.5rem 0;
+            color: white;
+            text-align: center;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: 400;
+            transition: color 0.3s;
+        }
+
+        .footer a:hover {
+            color: #e63946;
+        }
+
+        /* Pulsante Scroll Top */
+        .scroll-top-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(30, 58, 138, 0.3);
+            z-index: 999;
+        }
+
+        .scroll-top-btn.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .scroll-top-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4);
+        }
+
+        .scroll-top-btn span {
+            display: block;
+            line-height: 50px;
+        }
+
+        /* Banner Cookies */
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #2a1768;
+            color: white;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+            transform: translateY(100%);
+            transition: transform 0.5s ease;
+            z-index: 1000;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+        }
+
+        .cookie-banner.show {
+            transform: translateY(0);
+        }
+
+        .cookie-content {
+            flex: 1;
+        }
+
+        .cookie-content p {
+            margin: 0;
+            line-height: 1.6;
+            text-align: left;
+            color: white;
+        }
+
+        .cookie-content p:first-child {
+            margin-bottom: 0.5rem;
+            color: white;
+        }
+        
+        .cookie-content strong {
+            color: white;
+        }
+
+        .cookie-accept-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+
+        .cookie-accept-btn:hover {
+            background: #229954;
+            transform: scale(1.05);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .header {
+                text-align: center;
+            }
+
+            .nav-container {
+                justify-content: center;
+            }
+
+            .nav-menu {
+                display: none;
+            }
+
+            .logo {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+
+            .logo img {
+                height: 90px;
+            }
+
+            .hero {
+                padding: 80px 15px 60px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero h2 {
+                font-size: 1.3rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+
+            .content-section {
+                padding: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .content-container {
+                padding: 40px 15px;
+            }
+
+            .scroll-top-btn {
+                display: none;
+            }
+
+            .cookie-banner {
+                flex-direction: column;
+                padding: 1.5rem 1rem;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .cookie-content p {
+                font-size: 0.9rem;
+                text-align: center;
+            }
+
+            .cookie-accept-btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="https://idraulico-ostuni.it/" class="logo">
+                <img src="logo-black.png" alt="Ungaro Impianti Idrici e Termici">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="https://idraulico-ostuni.it/#servizi">Servizi</a></li>
+                <li><a href="https://idraulico-ostuni.it/#zone">Zone</a></li>
+                <li><a href="https://idraulico-ostuni.it/#contatti">Contatti</a></li>
+                <li><a href="https://idraulico-ostuni.it/prenotazioni.html" class="cta-button">Prenota Ora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Privacy Policy</h1>
+        <h2>UNGARO IMPIANTI IDRICI & TERMICI</h2>
+        <p class="hero-subtitle">Informativa sul trattamento dei dati personali</p>
+    </section>
+
+    <!-- Content -->
+    <div class="content-container">
+        <div class="info-box">
+            <p><strong>Titolare del Trattamento:</strong> Ungaro Impianti Idrici & Termici</p>
+            <p><strong>Sede:</strong> Via Rodolfo Tanzarella, 4 - 72017 Ostuni (BR)</p>
+            <p><strong>Telefono:</strong> <a href="tel:+393792560025">+39 379 256 0025</a></p>
+            <p><strong>Email:</strong> info@idraulico-ostuni.it</p>
+            <p><strong>Ultimo aggiornamento:</strong> 09 Novembre 2025</p>
+        </div>
+
+        <div class="content-section">
+            <h2>1. Introduzione</h2>
+            <p>La presente Privacy Policy descrive le modalità di trattamento dei dati personali degli utenti che visitano il sito web <strong>idraulico-ostuni.it</strong> e che utilizzano i servizi offerti da Ungaro Impianti Idrici & Termici.</p>
+            <p>Il trattamento dei dati personali è effettuato nel rispetto del Regolamento UE 2016/679 (GDPR) e del D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>2. Titolare del Trattamento</h2>
+            <p>Il Titolare del trattamento dei dati è <strong>Ungaro Impianti Idrici & Termici</strong>, con sede legale in Via Rodolfo Tanzarella, 4 - 72017 Ostuni (BR).</p>
+            <p>Per qualsiasi informazione relativa al trattamento dei dati personali, è possibile contattare il Titolare ai seguenti recapiti:</p>
+            <ul>
+                <li><strong>Telefono:</strong> <a href="tel:+393792560025" style="color: #e63946;">+39 379 256 0025</a></li>
+                <li><strong>Email:</strong> info@idraulico-ostuni.it</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>3. Tipologie di Dati Raccolti</h2>
+            
+            <h3>3.1 Dati forniti volontariamente dall'utente</h3>
+            <p>Durante l'utilizzo del sito, potremmo raccogliere i seguenti dati personali che ci fornisci volontariamente:</p>
+            <ul>
+                <li><strong>Dati di contatto:</strong> nome, cognome, indirizzo email, numero di telefono, indirizzo</li>
+                <li><strong>Dati relativi alla richiesta:</strong> informazioni sul servizio richiesto, descrizione del problema idraulico, preferenze di contatto</li>
+            </ul>
+
+            <h3>3.2 Dati raccolti automaticamente</h3>
+            <p>Durante la navigazione sul sito, potrebbero essere raccolti automaticamente:</p>
+            <ul>
+                <li><strong>Dati di navigazione:</strong> indirizzo IP, tipo di browser, sistema operativo, pagine visitate, durata della visita</li>
+                <li><strong>Cookie:</strong> come descritto nella nostra Cookie Policy</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>4. Finalità del Trattamento</h2>
+            <p>I dati personali raccolti sono trattati per le seguenti finalità:</p>
+            
+            <div class="highlight-box">
+                <h3>4.1 Finalità contrattuali e precontrattuali</h3>
+                <ul>
+                    <li>Rispondere alle richieste di preventivo e informazioni</li>
+                    <li>Gestire le prenotazioni per interventi idraulici</li>
+                    <li>Eseguire i servizi richiesti</li>
+                    <li>Gestire la fatturazione e gli adempimenti amministrativi</li>
+                    <li>Fornire assistenza per il servizio di pronto intervento 24/7</li>
+                </ul>
+                <p><strong>Base giuridica:</strong> Esecuzione di misure precontrattuali o contrattuali (art. 6, par. 1, lett. b GDPR)</p>
+            </div>
+
+            <div class="highlight-box">
+                <h3>4.2 Finalità di legge</h3>
+                <ul>
+                    <li>Adempiere agli obblighi previsti da leggi, regolamenti e normative</li>
+                    <li>Gestire obblighi fiscali e contabili</li>
+                    <li>Certificazioni impianti termici e idrici</li>
+                </ul>
+                <p><strong>Base giuridica:</strong> Obbligo di legge (art. 6, par. 1, lett. c GDPR)</p>
+            </div>
+
+            <div class="highlight-box">
+                <h3>4.3 Finalità di marketing (con consenso)</h3>
+                <ul>
+                    <li>Invio di newsletter e comunicazioni commerciali</li>
+                    <li>Invio di offerte personalizzate e promozioni</li>
+                    <li>Informazioni su nuovi servizi e manutenzioni periodiche</li>
+                </ul>
+                <p><strong>Base giuridica:</strong> Consenso dell'interessato (art. 6, par. 1, lett. a GDPR)</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>5. Modalità del Trattamento</h2>
+            <p>Il trattamento dei dati personali è effettuato con strumenti cartacei, informatici e telematici, con logiche strettamente correlate alle finalità sopra indicate e, comunque, in modo da garantire la sicurezza e la riservatezza dei dati stessi.</p>
+            <p>Sono adottate misure di sicurezza organizzative, tecniche e fisiche per proteggere i dati personali da accessi non autorizzati, perdita, distruzione o alterazione.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>6. Destinatari dei Dati</h2>
+            <p>I dati personali potranno essere comunicati a:</p>
+            <ul>
+                <li><strong>Personale autorizzato:</strong> dipendenti e collaboratori di Ungaro Impianti Idrici & Termici specificamente autorizzati</li>
+                <li><strong>Fornitori di servizi:</strong> società che forniscono servizi di hosting, manutenzione del sito, gestione email e comunicazioni</li>
+                <li><strong>Consulenti professionali:</strong> commercialisti, avvocati, consulenti fiscali</li>
+                <li><strong>Autorità pubbliche:</strong> quando richiesto dalla legge o per certificazioni obbligatorie</li>
+            </ul>
+            <p>Tutti i destinatari sono tenuti a trattare i dati nel rispetto della normativa sulla protezione dei dati personali.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>7. Conservazione dei Dati</h2>
+            <p>I dati personali saranno conservati per il tempo strettamente necessario al conseguimento delle finalità per cui sono stati raccolti:</p>
+            <ul>
+                <li><strong>Dati contrattuali:</strong> per tutta la durata del rapporto e successivamente per il periodo previsto dalla legge (10 anni per obblighi fiscali e certificazioni impianti)</li>
+                <li><strong>Dati di marketing:</strong> fino alla revoca del consenso o per un periodo massimo di 24 mesi dall'ultimo contatto</li>
+                <li><strong>Dati di navigazione:</strong> generalmente non oltre 7 giorni</li>
+                <li><strong>Chiamate di emergenza:</strong> i dati delle chiamate per pronto intervento sono conservati per scopi contrattuali e di sicurezza</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>8. Diritti dell'Interessato</h2>
+            <p>In qualità di interessato, hai i seguenti diritti ai sensi degli articoli 15-22 del GDPR:</p>
+            <ul>
+                <li><strong>Diritto di accesso:</strong> ottenere conferma dell'esistenza dei tuoi dati e riceverne copia</li>
+                <li><strong>Diritto di rettifica:</strong> correggere dati inesatti o incompleti</li>
+                <li><strong>Diritto di cancellazione:</strong> ottenere la cancellazione dei dati in determinate circostanze</li>
+                <li><strong>Diritto di limitazione:</strong> limitare il trattamento in specifiche situazioni</li>
+                <li><strong>Diritto di portabilità:</strong> ricevere i dati in formato strutturato e trasmetterli ad altro titolare</li>
+                <li><strong>Diritto di opposizione:</strong> opporsi al trattamento dei dati per motivi legittimi</li>
+                <li><strong>Diritto di revoca del consenso:</strong> revocare in qualsiasi momento il consenso prestato</li>
+            </ul>
+            <p>Per esercitare tali diritti, puoi contattarci:</p>
+            <ul>
+                <li>Via email: <strong>info@idraulico-ostuni.it</strong></li>
+                <li>Via telefono: <strong><a href="tel:+393792560025" style="color: #e63946;">+39 379 256 0025</a></strong></li>
+                <li>Via comunicazione scritta all'indirizzo della sede</li>
+            </ul>
+            <p>Hai inoltre il diritto di proporre reclamo all'Autorità Garante per la Protezione dei Dati Personali (<a href="https://www.garanteprivacy.it" target="_blank" style="color: #e63946;">www.garanteprivacy.it</a>).</p>
+        </div>
+
+        <div class="content-section">
+            <h2>9. Cookie e Tecnologie Simili</h2>
+            <p>Il sito utilizza cookie tecnici necessari al funzionamento e cookie di terze parti per analisi statistiche. Per maggiori informazioni, consulta la nostra Cookie Policy.</p>
+            <p>L'utente può gestire le preferenze sui cookie tramite le impostazioni del proprio browser.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>10. Trasferimento dei Dati</h2>
+            <p>I dati personali sono conservati su server situati all'interno dell'Unione Europea. Qualora sia necessario trasferire dati al di fuori dell'UE, il trasferimento avverrà nel rispetto delle garanzie previste dal GDPR.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>11. Modifiche alla Privacy Policy</h2>
+            <p>La presente Privacy Policy può essere aggiornata periodicamente. Ti invitiamo a consultare regolarmente questa pagina per essere informato sulle eventuali modifiche.</p>
+            <p>La data dell'ultimo aggiornamento è indicata in cima alla pagina.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>12. Contatti</h2>
+            <p>Per qualsiasi domanda relativa alla presente Privacy Policy o al trattamento dei tuoi dati personali, puoi contattarci:</p>
+            <ul>
+                <li><strong>Telefono:</strong> <a href="tel:+393792560025" style="color: #e63946;">+39 379 256 0025</a> (disponibili 24/7)</li>
+                <li><strong>Email:</strong> info@idraulico-ostuni.it</li>
+                <li><strong>Indirizzo:</strong> Via Rodolfo Tanzarella, 4 - 72017 Ostuni (BR)</li>
+            </ul>
+        </div>
+
+        <p class="last-update">Ultimo aggiornamento: 09 Novembre 2025</p>
+
+        <div style="text-align: center;">
+            <a href="https://idraulico-ostuni.it/" class="back-link">← Torna alla Homepage</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2012 - 2026 Ungaro Impianti Idrici & Termici - Idraulico Ostuni (BR)</p>
+        <p>Tutti i diritti riservati | <a href="https://idraulico-ostuni.it/privacy-policy.html">Privacy Policy</a></p>
+    </footer>
+
+    <!-- Pulsante Torna in Alto -->
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Torna in alto">
+        <span>↑</span>
+    </button>
+
+    <!-- Banner Cookies -->
+    <div id="cookieBanner" class="cookie-banner">
+        <div class="cookie-content">
+            <p><strong>🍪 Utilizzo dei Cookie</strong></p>
+            <p>Questo sito utilizza cookie per migliorare l'esperienza utente. Continuando la navigazione accetti l'utilizzo dei cookie.</p>
+        </div>
+        <button id="acceptCookies" class="cookie-accept-btn">Accetta</button>
+    </div>
+
+    <script>
+        // Pulsante Torna in Alto
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                scrollTopBtn.classList.add('show');
+            } else {
+                scrollTopBtn.classList.remove('show');
+            }
+        });
+        
+        scrollTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Banner Cookies
+        const cookieBanner = document.getElementById('cookieBanner');
+        const acceptCookiesBtn = document.getElementById('acceptCookies');
+        
+        if (!localStorage.getItem('cookiesAccepted')) {
+            setTimeout(function() {
+                cookieBanner.classList.add('show');
+            }, 1000);
+        }
+        
+        acceptCookiesBtn.addEventListener('click', function() {
+            localStorage.setItem('cookiesAccepted', 'true');
+            cookieBanner.classList.remove('show');
+        });
+    </script>
+</body>
+</html>
